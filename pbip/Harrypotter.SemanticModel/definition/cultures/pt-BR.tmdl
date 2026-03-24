@@ -1,0 +1,7572 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "chapter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Chapters"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "chapter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "episode": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "subdivision": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "division": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "clause": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "chapter.chapter_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Chapters",
+			          "ConceptualProperty": "Chapter ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "chapter ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "chapter identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "chapter identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "chapter identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "chapter credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "chapter.chapter_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Chapters",
+			          "ConceptualProperty": "Chapter Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "chapter name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "name": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "chapter nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "chapter title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "chapter label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "chapter tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "chapter.movie_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Chapters",
+			          "ConceptualProperty": "Movie ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "movie ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "movie identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "movie identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "movie identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "movie credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "chapter.movie_chapter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Chapters",
+			          "ConceptualProperty": "Movie Chapter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "movie chapter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "movie episode": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "movie subdivision": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "movie interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "movie division": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "movie unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "movie era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "movie clause": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "movie section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "movie part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "movie stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "data_dictionary": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data_Dictionary"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data dictionary": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Data_Dictionary": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dictionary": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "information dictionary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact dictionary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info dictionary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic dictionary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document dictionary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure dictionary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record dictionary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "data lexicon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "data glossary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "data phrasebook": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "movie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "movie": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "flick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "picture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "film": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "movie.movie_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies",
+			          "ConceptualProperty": "Movie ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "movie ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "movie identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "movie identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "movie identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "movie credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "movie.movie_title": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies",
+			          "ConceptualProperty": "Movie Title"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "movie title": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "title": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "movie designation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "designation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "movie name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "movie award": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "movie call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "movie heading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "movie label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "award": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "heading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "movie.release_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies",
+			          "ConceptualProperty": "Release Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "release year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "release yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "movie.runtime": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies",
+			          "ConceptualProperty": "Runtime"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "runtime": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movie.budget": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies",
+			          "ConceptualProperty": "Budget"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "budget": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "account": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "finance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "movie.box_office": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies",
+			          "ConceptualProperty": "Box Office"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "box office": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "office": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "box workplace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "box agency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "workplace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "agency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "box headquarters": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "headquarters": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "box organization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "box workforce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "box department": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "organization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "movie.movie_title_abrv_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies",
+			          "ConceptualProperty": "Movie Title abrv."
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "movie title abrv.": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "movie designation abrv.": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "movie name abrv.": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "movie award abrv.": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "movie call abrv.": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "movie heading abrv.": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "movie label abrv.": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "Movie": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "movie.profit_margin": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies",
+			          "ConceptualProperty": "Profit Margin"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "profit margin": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "margin": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "profit boundary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "profit perimeter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "profit periphery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "boundary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "perimeter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "periphery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "profit border": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "profit brim": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "profit sideline": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "profit edge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "movie.ordem_filme_abrev": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies",
+			          "ConceptualProperty": "Ordem filme abrev"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ordem filme abrev": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Movie": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "place": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Places"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "place": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "residence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "apartment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "habitation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "dwelling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "room": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "domicile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "abode": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "housing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "flat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "place.place_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Places",
+			          "ConceptualProperty": "Place ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "place ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "place identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "place identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "place identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "place credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "place.place_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Places",
+			          "ConceptualProperty": "Place Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "place name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "name": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "place nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "place title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "place label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "place tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "place.place_category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Places",
+			          "ConceptualProperty": "Place Category"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "place category": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "place classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "place class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "place group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "place type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "place grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "place kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "spell": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spells"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "spell": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "enchantment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "invocation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "curse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "hex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fascination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "bewitchment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "influence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "thrall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "glamor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "glamour": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "spell.spell_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spells",
+			          "ConceptualProperty": "Spell ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "spell ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "spell identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "spell identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "spell identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "spell credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "spell.incantation": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spells",
+			          "ConceptualProperty": "Incantation"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "incantation": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invocation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "prayer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "chant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "summons": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "spell.spell_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spells",
+			          "ConceptualProperty": "Spell Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "spell name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "name": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "spell nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "spell title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "spell label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "spell tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "spell.effect": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spells",
+			          "ConceptualProperty": "Effect"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "effect": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "consequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "outcome": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "upshot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "conclusion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "result": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "validity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "influence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "weight": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "force": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "clout": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "spell.light": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spells",
+			          "ConceptualProperty": "Light"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "light": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "well-lit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "dainty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "spell.spell_search": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spells",
+			          "ConceptualProperty": "Spell Search"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "spell search": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "spell exploration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "spell examination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "spell pursuit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "spell hunt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "spell quest": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "character": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Characters"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "character": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "atmosphere": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "attractiveness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "charisma": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "charm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "appeal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "personality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "oddity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "eccentric": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "original": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "oddball": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "character.character_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Characters",
+			          "ConceptualProperty": "Character ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "character ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "character identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "character identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "character identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "character credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "character.character_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Characters",
+			          "ConceptualProperty": "Character Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "character name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "name": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "character nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "character title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "character label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "character tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "character.species": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Characters",
+			          "ConceptualProperty": "Species"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "species": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "genus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "order": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "character.gender": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Characters",
+			          "ConceptualProperty": "Gender"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gender": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sexuality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "sex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "character.house": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Characters",
+			          "ConceptualProperty": "House"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "house": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dynasty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "household": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "family": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "community": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stock": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "partnership": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "organization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "establishment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "corporation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "company": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "character.patronus": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Characters",
+			          "ConceptualProperty": "Patronus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patronus": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "character.wand_wood": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Characters",
+			          "ConceptualProperty": "Wand (Wood)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "wand (wood)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "wand": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "character.wand_core": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Characters",
+			          "ConceptualProperty": "Wand (Core)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "wand (core)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "wand": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "character.coluna_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Characters",
+			          "ConceptualProperty": "Link foto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "link foto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dialogue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dialogue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dialogue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "discussion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "negotiation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "discourse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "interchange": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "conversation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "interview": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "chat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "talk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "dialogue.dialogue_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dialogue",
+			          "ConceptualProperty": "Dialogue ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dialogue ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "dialogue identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dialogue identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dialogue identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dialogue credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "dialogue.chapter_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dialogue",
+			          "ConceptualProperty": "Chapter ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "chapter ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "chapter identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "chapter identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "chapter identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "chapter credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Chapter": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dialogue.place_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dialogue",
+			          "ConceptualProperty": "Place ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "place ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "place identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "place identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "place identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "place credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dialogue.character_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dialogue",
+			          "ConceptualProperty": "Character ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "character ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "character identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "character identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "character identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "character credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dialogue.dialogue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dialogue",
+			          "ConceptualProperty": "Dialogue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dialogue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dialogue name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "discussion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "negotiation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "discourse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "interchange": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "conversation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "interview": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "chat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "talk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "dialogue.sentiment_score": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dialogue",
+			          "ConceptualProperty": "sentiment_score"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sentiment score": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sentiment_score": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "score": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sentiment notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sentiment slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sentiment groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sentiment nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sentiment cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sentiment mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "dialogue.sentiment_classification": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dialogue",
+			          "ConceptualProperty": "sentiment_classification"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sentiment classification": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sentiment_classification": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "classification": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sentiment organization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sentiment arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sentiment taxonomy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sentiment categorization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "organization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "taxonomy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "categorization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "sentiment cataloguing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sentiment cataloging": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.coluna_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Coluna 1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "coluna 1": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.html_resumo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "html_resumo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "html resumo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "html_resumo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "lista_palavra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Lista palavras"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lista palavra": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "lista_palavra.teste": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Lista palavras",
+			          "ConceptualProperty": "Word"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "word": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "expression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "term": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "conversation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "discussion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "announcement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "declaration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "statement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "chat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "talk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "comment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "lista_palavra.dialogue_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Lista palavras",
+			          "ConceptualProperty": "Dialogue ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "dialogue ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dialogue identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dialogue identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dialogue identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dialogue credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "lista_palavra.chapter_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Lista palavras",
+			          "ConceptualProperty": "Chapter ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "chapter ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "chapter identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "chapter identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "chapter identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "chapter credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "lista_palavra.place_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Lista palavras",
+			          "ConceptualProperty": "Place ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "place ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "place identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "place identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "place identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "place credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "lista_palavra.character_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Lista palavras",
+			          "ConceptualProperty": "Character ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "character ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "character identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "character identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "character identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "character credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "lista_palavra.dialogue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Lista palavras",
+			          "ConceptualProperty": "Dialogue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dialogue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "discussion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "negotiation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "discourse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "interchange": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "conversation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "interview": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "chat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "talk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "lista_palavra.spell_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Lista palavras",
+			          "ConceptualProperty": "Spell id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "spell id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "spell identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "spell identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "spell identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "spell credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "hogwarts_houses_english_updated": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hogward houses"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hogwarts houses english updated": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hogwarts house english updated": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "hogwarts_houses_english_updated": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "hogwarts_houses_english_updated.ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hogward houses",
+			          "ConceptualProperty": "ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "hogwarts_houses_english_updated.name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hogward houses",
+			          "ConceptualProperty": "Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "hogwarts_houses_english_updated.founder": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hogward houses",
+			          "ConceptualProperty": "Founder"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "founder": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "creator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "originator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "initiator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "organizer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "forefather": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "author": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "hogwarts_houses_english_updated.house_animal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hogward houses",
+			          "ConceptualProperty": "House Animal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "house animal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "animal": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "physical": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "house creature": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "house beast": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "house mammal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "house organism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "creature": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "beast": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "mammal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "organism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "house being": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "hogwarts_houses_english_updated.house_color": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hogward houses",
+			          "ConceptualProperty": "House Colors"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "house color": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "color": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "house hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "house tint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "house shade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "house dye": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "house paint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "house pigment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "tint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "shade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "dye": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "hogwarts_houses_english_updated.trait": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hogward houses",
+			          "ConceptualProperty": "Traits"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trait": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mannerism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "peculiarity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "attribute": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "characteristic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "feature": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "quality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "hogwarts_houses_english_updated.head_of_house": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hogward houses",
+			          "ConceptualProperty": "Head of House"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "head of house": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "head": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "skull of house": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "pate of house": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "bonce of house": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "nut of house": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "crown of house": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "dome of house": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "bean of house": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "noodle of house": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "skull": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "hogwarts_houses_english_updated.ghost": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hogward houses",
+			          "ConceptualProperty": "Ghost"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ghost": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "impression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "suggestion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "flicker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "trace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "flash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "glimmer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "presence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "apparition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "ghoul": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "manifestation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "hogwarts_houses_english_updated.summary": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hogward houses",
+			          "ConceptualProperty": "Summary"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "summary": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "synopsis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "extraction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "summarisation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "abstract": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "outline": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "overview": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "paraphrase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "recap": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "hogwarts_houses_english_updated.link": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hogward houses",
+			          "ConceptualProperty": "Link"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "link": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "connection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "relation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "association": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "relationship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "linkage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "nexus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "tie": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bond": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "yoke": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "medida.sentimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Sentimento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sentimento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Predominant sentiment": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "movie.link": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movies",
+			          "ConceptualProperty": "Link"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "link": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "connection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "relation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "association": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "relationship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "linkage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "nexus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "tie": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bond": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "yoke": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "hogwarts_houses_english_updated_has_house_animal": {
+			      "Binding": {
+			        "ConceptualEntity": "Hogward houses"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hogwarts_houses_english_updated": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated"
+			          }
+			        },
+			        "hogwarts_houses_english_updated.house_animal": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated.house_animal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hogwarts_houses_english_updated"
+			            },
+			            "Object": {
+			              "Role": "hogwarts_houses_english_updated.house_animal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hogwarts_houses_english_updated_have_house_animals"
+			        }
+			      ]
+			    },
+			    "hogwarts_houses_english_updated_has_founder": {
+			      "Binding": {
+			        "ConceptualEntity": "Hogward houses"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hogwarts_houses_english_updated": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated"
+			          }
+			        },
+			        "hogwarts_houses_english_updated.founder": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated.founder"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hogwarts_houses_english_updated"
+			            },
+			            "Object": {
+			              "Role": "hogwarts_houses_english_updated.founder"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hogwarts_houses_english_updated_have_founders"
+			        }
+			      ]
+			    },
+			    "hogwarts_houses_english_updated_has_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Hogward houses"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hogwarts_houses_english_updated": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated"
+			          }
+			        },
+			        "hogwarts_houses_english_updated.name": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated.name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hogwarts_houses_english_updated"
+			            },
+			            "Object": {
+			              "Role": "hogwarts_houses_english_updated.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hogwarts_houses_english_updated_have_names"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "hogwarts_houses_english_updated"
+			            },
+			            "Name": {
+			              "Role": "hogwarts_houses_english_updated.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "names_are_names_IDs_of_hogwarts_houses_english_updated"
+			        }
+			      ]
+			    },
+			    "hogwarts_houses_english_updated_has_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Hogward houses"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hogwarts_houses_english_updated": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated"
+			          }
+			        },
+			        "hogwarts_houses_english_updated.ID": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated.ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hogwarts_houses_english_updated"
+			            },
+			            "Object": {
+			              "Role": "hogwarts_houses_english_updated.ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hogwarts_houses_english_updated_have_ID"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "hogwarts_houses_english_updated"
+			            },
+			            "Name": {
+			              "Role": "hogwarts_houses_english_updated.ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ID_are_names_IDs_of_hogwarts_houses_english_updated"
+			        }
+			      ]
+			    },
+			    "lista_palavra_has_dialogue": {
+			      "Binding": {
+			        "ConceptualEntity": "Lista palavras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lista_palavra": {
+			          "Target": {
+			            "Entity": "lista_palavra"
+			          }
+			        },
+			        "lista_palavra.dialogue": {
+			          "Target": {
+			            "Entity": "lista_palavra.dialogue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lista_palavra"
+			            },
+			            "Object": {
+			              "Role": "lista_palavra.dialogue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lista_palavras_have_dialogues"
+			        }
+			      ]
+			    },
+			    "lista_palavra_has_character_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Lista palavras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lista_palavra": {
+			          "Target": {
+			            "Entity": "lista_palavra"
+			          }
+			        },
+			        "lista_palavra.character_ID": {
+			          "Target": {
+			            "Entity": "lista_palavra.character_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lista_palavra"
+			            },
+			            "Object": {
+			              "Role": "lista_palavra.character_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lista_palavras_have_character_ID"
+			        }
+			      ]
+			    },
+			    "lista_palavra_has_place_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Lista palavras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lista_palavra": {
+			          "Target": {
+			            "Entity": "lista_palavra"
+			          }
+			        },
+			        "lista_palavra.place_ID": {
+			          "Target": {
+			            "Entity": "lista_palavra.place_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lista_palavra"
+			            },
+			            "Object": {
+			              "Role": "lista_palavra.place_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lista_palavras_have_place_ID"
+			        }
+			      ]
+			    },
+			    "lista_palavra_has_chapter_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Lista palavras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lista_palavra": {
+			          "Target": {
+			            "Entity": "lista_palavra"
+			          }
+			        },
+			        "lista_palavra.chapter_ID": {
+			          "Target": {
+			            "Entity": "lista_palavra.chapter_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lista_palavra"
+			            },
+			            "Object": {
+			              "Role": "lista_palavra.chapter_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lista_palavras_have_chapter_ID"
+			        }
+			      ]
+			    },
+			    "lista_palavra_has_teste": {
+			      "Binding": {
+			        "ConceptualEntity": "Lista palavras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lista_palavra": {
+			          "Target": {
+			            "Entity": "lista_palavra"
+			          }
+			        },
+			        "lista_palavra.teste": {
+			          "Target": {
+			            "Entity": "lista_palavra.teste"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lista_palavra"
+			            },
+			            "Object": {
+			              "Role": "lista_palavra.teste"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lista_palavras_have_words"
+			        }
+			      ]
+			    },
+			    "medida_has_gif_test": {
+			      "Binding": {
+			        "ConceptualEntity": "Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.gif_test": {
+			          "Target": {
+			            "Entity": "medida.gif_test"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.gif_test"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_gif_test"
+			        }
+			      ]
+			    },
+			    "medida_has_html_resumo": {
+			      "Binding": {
+			        "ConceptualEntity": "Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.html_resumo": {
+			          "Target": {
+			            "Entity": "medida.html_resumo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.html_resumo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_html_resumo"
+			        }
+			      ]
+			    },
+			    "medida_has_coluna_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.coluna_1": {
+			          "Target": {
+			            "Entity": "medida.coluna_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.coluna_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_coluna_1"
+			        }
+			      ]
+			    },
+			    "dialogue_has_sentiment_classification": {
+			      "Binding": {
+			        "ConceptualEntity": "Dialogue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dialogue": {
+			          "Target": {
+			            "Entity": "dialogue"
+			          }
+			        },
+			        "dialogue.sentiment_classification": {
+			          "Target": {
+			            "Entity": "dialogue.sentiment_classification"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dialogue"
+			            },
+			            "Object": {
+			              "Role": "dialogue.sentiment_classification"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dialogues_have_sentiment_classifications"
+			        }
+			      ]
+			    },
+			    "dialogue_has_sentiment_score": {
+			      "Binding": {
+			        "ConceptualEntity": "Dialogue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dialogue": {
+			          "Target": {
+			            "Entity": "dialogue"
+			          }
+			        },
+			        "dialogue.sentiment_score": {
+			          "Target": {
+			            "Entity": "dialogue.sentiment_score"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dialogue"
+			            },
+			            "Object": {
+			              "Role": "dialogue.sentiment_score"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dialogues_have_sentiment_scores"
+			        }
+			      ]
+			    },
+			    "dialogue_has_dialogue": {
+			      "Binding": {
+			        "ConceptualEntity": "Dialogue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dialogue": {
+			          "Target": {
+			            "Entity": "dialogue"
+			          }
+			        },
+			        "dialogue.dialogue": {
+			          "Target": {
+			            "Entity": "dialogue.dialogue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dialogue"
+			            },
+			            "Object": {
+			              "Role": "dialogue.dialogue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dialogues_have_dialogues"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "dialogue"
+			            },
+			            "Name": {
+			              "Role": "dialogue.dialogue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dialogues_are_names_IDs_of_dialogues"
+			        }
+			      ]
+			    },
+			    "dialogue_has_dialogue_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Dialogue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dialogue": {
+			          "Target": {
+			            "Entity": "dialogue"
+			          }
+			        },
+			        "dialogue.dialogue_ID": {
+			          "Target": {
+			            "Entity": "dialogue.dialogue_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dialogue"
+			            },
+			            "Object": {
+			              "Role": "dialogue.dialogue_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dialogues_have_dialogue_ID"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "dialogue"
+			            },
+			            "Name": {
+			              "Role": "dialogue.dialogue_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dialogue_ID_are_names_IDs_of_dialogues"
+			        }
+			      ]
+			    },
+			    "character_has_coluna_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Characters"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "character": {
+			          "Target": {
+			            "Entity": "character"
+			          }
+			        },
+			        "character.coluna_1": {
+			          "Target": {
+			            "Entity": "character.coluna_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "character"
+			            },
+			            "Object": {
+			              "Role": "character.coluna_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "characters_have_link_fotos"
+			        }
+			      ]
+			    },
+			    "character_has_wand_core": {
+			      "Binding": {
+			        "ConceptualEntity": "Characters"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "character": {
+			          "Target": {
+			            "Entity": "character"
+			          }
+			        },
+			        "character.wand_core": {
+			          "Target": {
+			            "Entity": "character.wand_core"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "character"
+			            },
+			            "Object": {
+			              "Role": "character.wand_core"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "characters_have_wand_core"
+			        }
+			      ]
+			    },
+			    "character_has_wand_wood": {
+			      "Binding": {
+			        "ConceptualEntity": "Characters"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "character": {
+			          "Target": {
+			            "Entity": "character"
+			          }
+			        },
+			        "character.wand_wood": {
+			          "Target": {
+			            "Entity": "character.wand_wood"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "character"
+			            },
+			            "Object": {
+			              "Role": "character.wand_wood"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "characters_have_wand_wood"
+			        }
+			      ]
+			    },
+			    "character_has_patronus": {
+			      "Binding": {
+			        "ConceptualEntity": "Characters"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "character": {
+			          "Target": {
+			            "Entity": "character"
+			          }
+			        },
+			        "character.patronus": {
+			          "Target": {
+			            "Entity": "character.patronus"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "character"
+			            },
+			            "Object": {
+			              "Role": "character.patronus"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "characters_have_patronuses"
+			        }
+			      ]
+			    },
+			    "character_has_gender": {
+			      "Binding": {
+			        "ConceptualEntity": "Characters"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "character": {
+			          "Target": {
+			            "Entity": "character"
+			          }
+			        },
+			        "character.gender": {
+			          "Target": {
+			            "Entity": "character.gender"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "character"
+			            },
+			            "Object": {
+			              "Role": "character.gender"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "characters_have_genders"
+			        }
+			      ]
+			    },
+			    "character_has_species": {
+			      "Binding": {
+			        "ConceptualEntity": "Characters"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "character": {
+			          "Target": {
+			            "Entity": "character"
+			          }
+			        },
+			        "character.species": {
+			          "Target": {
+			            "Entity": "character.species"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "character"
+			            },
+			            "Object": {
+			              "Role": "character.species"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "characters_have_species"
+			        }
+			      ]
+			    },
+			    "character_has_character_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Characters"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "character": {
+			          "Target": {
+			            "Entity": "character"
+			          }
+			        },
+			        "character.character_name": {
+			          "Target": {
+			            "Entity": "character.character_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "character"
+			            },
+			            "Object": {
+			              "Role": "character.character_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "characters_have_character_names"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "character"
+			            },
+			            "Name": {
+			              "Role": "character.character_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "character_names_are_names_IDs_of_characters"
+			        }
+			      ]
+			    },
+			    "character_has_character_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Characters"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "character": {
+			          "Target": {
+			            "Entity": "character"
+			          }
+			        },
+			        "character.character_ID": {
+			          "Target": {
+			            "Entity": "character.character_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "character"
+			            },
+			            "Object": {
+			              "Role": "character.character_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "characters_have_character_ID"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "character"
+			            },
+			            "Name": {
+			              "Role": "character.character_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "character_ID_are_names_IDs_of_characters"
+			        }
+			      ]
+			    },
+			    "spell_has_spell_search": {
+			      "Binding": {
+			        "ConceptualEntity": "Spells"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spell": {
+			          "Target": {
+			            "Entity": "spell"
+			          }
+			        },
+			        "spell.spell_search": {
+			          "Target": {
+			            "Entity": "spell.spell_search"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spell"
+			            },
+			            "Object": {
+			              "Role": "spell.spell_search"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spells_have_spell_searches"
+			        }
+			      ]
+			    },
+			    "spell_has_light": {
+			      "Binding": {
+			        "ConceptualEntity": "Spells"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spell": {
+			          "Target": {
+			            "Entity": "spell"
+			          }
+			        },
+			        "spell.light": {
+			          "Target": {
+			            "Entity": "spell.light"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spell"
+			            },
+			            "Object": {
+			              "Role": "spell.light"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spells_have_lights"
+			        }
+			      ]
+			    },
+			    "spell_has_effect": {
+			      "Binding": {
+			        "ConceptualEntity": "Spells"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spell": {
+			          "Target": {
+			            "Entity": "spell"
+			          }
+			        },
+			        "spell.effect": {
+			          "Target": {
+			            "Entity": "spell.effect"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spell"
+			            },
+			            "Object": {
+			              "Role": "spell.effect"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spells_have_effects"
+			        }
+			      ]
+			    },
+			    "spell_has_spell_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Spells"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spell": {
+			          "Target": {
+			            "Entity": "spell"
+			          }
+			        },
+			        "spell.spell_name": {
+			          "Target": {
+			            "Entity": "spell.spell_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spell"
+			            },
+			            "Object": {
+			              "Role": "spell.spell_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spells_have_spell_names"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "spell"
+			            },
+			            "Name": {
+			              "Role": "spell.spell_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spell_names_are_names_IDs_of_spells"
+			        }
+			      ]
+			    },
+			    "spell_has_incantation": {
+			      "Binding": {
+			        "ConceptualEntity": "Spells"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spell": {
+			          "Target": {
+			            "Entity": "spell"
+			          }
+			        },
+			        "spell.incantation": {
+			          "Target": {
+			            "Entity": "spell.incantation"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spell"
+			            },
+			            "Object": {
+			              "Role": "spell.incantation"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spells_have_incantations"
+			        }
+			      ]
+			    },
+			    "spell_has_spell_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Spells"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spell": {
+			          "Target": {
+			            "Entity": "spell"
+			          }
+			        },
+			        "spell.spell_ID": {
+			          "Target": {
+			            "Entity": "spell.spell_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spell"
+			            },
+			            "Object": {
+			              "Role": "spell.spell_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spells_have_spell_ID"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "spell"
+			            },
+			            "Name": {
+			              "Role": "spell.spell_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spell_ID_are_names_IDs_of_spells"
+			        }
+			      ]
+			    },
+			    "place_has_place_category": {
+			      "Binding": {
+			        "ConceptualEntity": "Places"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "place": {
+			          "Target": {
+			            "Entity": "place"
+			          }
+			        },
+			        "place.place_category": {
+			          "Target": {
+			            "Entity": "place.place_category"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "place"
+			            },
+			            "Object": {
+			              "Role": "place.place_category"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "places_have_place_categories"
+			        }
+			      ]
+			    },
+			    "place_has_place_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Places"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "place": {
+			          "Target": {
+			            "Entity": "place"
+			          }
+			        },
+			        "place.place_name": {
+			          "Target": {
+			            "Entity": "place.place_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "place"
+			            },
+			            "Object": {
+			              "Role": "place.place_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "places_have_place_names"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "place"
+			            },
+			            "Name": {
+			              "Role": "place.place_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "place_names_are_names_IDs_of_places"
+			        }
+			      ]
+			    },
+			    "place_has_place_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Places"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "place": {
+			          "Target": {
+			            "Entity": "place"
+			          }
+			        },
+			        "place.place_ID": {
+			          "Target": {
+			            "Entity": "place.place_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "place"
+			            },
+			            "Object": {
+			              "Role": "place.place_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "places_have_place_ID"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "place"
+			            },
+			            "Name": {
+			              "Role": "place.place_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "place_ID_are_names_IDs_of_places"
+			        }
+			      ]
+			    },
+			    "movie_has_ordem_filme_abrev": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movie": {
+			          "Target": {
+			            "Entity": "movie"
+			          }
+			        },
+			        "movie.ordem_filme_abrev": {
+			          "Target": {
+			            "Entity": "movie.ordem_filme_abrev"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movie"
+			            },
+			            "Object": {
+			              "Role": "movie.ordem_filme_abrev"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movies_have_ordem_filme_abrevs"
+			        }
+			      ]
+			    },
+			    "movie_has_profit_margin": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movie": {
+			          "Target": {
+			            "Entity": "movie"
+			          }
+			        },
+			        "movie.profit_margin": {
+			          "Target": {
+			            "Entity": "movie.profit_margin"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movie"
+			            },
+			            "Object": {
+			              "Role": "movie.profit_margin"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movies_have_profit_margins"
+			        }
+			      ]
+			    },
+			    "movie_has_movie_title_abrv_": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movie": {
+			          "Target": {
+			            "Entity": "movie"
+			          }
+			        },
+			        "movie.movie_title_abrv_": {
+			          "Target": {
+			            "Entity": "movie.movie_title_abrv_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movie"
+			            },
+			            "Object": {
+			              "Role": "movie.movie_title_abrv_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movies_have_movie_title_abrv_"
+			        }
+			      ]
+			    },
+			    "movie_has_box_office": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movie": {
+			          "Target": {
+			            "Entity": "movie"
+			          }
+			        },
+			        "movie.box_office": {
+			          "Target": {
+			            "Entity": "movie.box_office"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movie"
+			            },
+			            "Object": {
+			              "Role": "movie.box_office"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movies_have_box_offices"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "movie"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "movie.box_office"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "box_office_indicates_how_expensive_movies_are"
+			        }
+			      ]
+			    },
+			    "movie_has_budget": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movie": {
+			          "Target": {
+			            "Entity": "movie"
+			          }
+			        },
+			        "movie.budget": {
+			          "Target": {
+			            "Entity": "movie.budget"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movie"
+			            },
+			            "Object": {
+			              "Role": "movie.budget"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movies_have_budgets"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "movie"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "movie.budget"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "budget_indicates_how_expensive_movies_are"
+			        }
+			      ]
+			    },
+			    "movie_has_runtime": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movie": {
+			          "Target": {
+			            "Entity": "movie"
+			          }
+			        },
+			        "movie.runtime": {
+			          "Target": {
+			            "Entity": "movie.runtime"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movie"
+			            },
+			            "Object": {
+			              "Role": "movie.runtime"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movies_have_runtimes"
+			        }
+			      ]
+			    },
+			    "movie_has_release_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movie": {
+			          "Target": {
+			            "Entity": "movie"
+			          }
+			        },
+			        "movie.release_year": {
+			          "Target": {
+			            "Entity": "movie.release_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movie"
+			            },
+			            "Object": {
+			              "Role": "movie.release_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movies_have_release_years"
+			        }
+			      ]
+			    },
+			    "movie_has_movie_title": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movie": {
+			          "Target": {
+			            "Entity": "movie"
+			          }
+			        },
+			        "movie.movie_title": {
+			          "Target": {
+			            "Entity": "movie.movie_title"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movie"
+			            },
+			            "Object": {
+			              "Role": "movie.movie_title"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movies_have_movie_titles"
+			        }
+			      ]
+			    },
+			    "movie_has_movie_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movie": {
+			          "Target": {
+			            "Entity": "movie"
+			          }
+			        },
+			        "movie.movie_ID": {
+			          "Target": {
+			            "Entity": "movie.movie_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movie"
+			            },
+			            "Object": {
+			              "Role": "movie.movie_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movies_have_movie_ID"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "movie"
+			            },
+			            "Name": {
+			              "Role": "movie.movie_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movie_ID_are_names_IDs_of_movies"
+			        }
+			      ]
+			    },
+			    "data_dictionary_has_column_3": {
+			      "Binding": {
+			        "ConceptualEntity": "Data_Dictionary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_dictionary": {
+			          "Target": {
+			            "Entity": "data_dictionary"
+			          }
+			        },
+			        "data_dictionary.column_3": {
+			          "Target": {
+			            "Entity": "data_dictionary.column_3"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_dictionary"
+			            },
+			            "Object": {
+			              "Role": "data_dictionary.column_3"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_dictionaries_have_column_3"
+			        }
+			      ]
+			    },
+			    "data_dictionary_has_column_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Data_Dictionary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_dictionary": {
+			          "Target": {
+			            "Entity": "data_dictionary"
+			          }
+			        },
+			        "data_dictionary.column_2": {
+			          "Target": {
+			            "Entity": "data_dictionary.column_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_dictionary"
+			            },
+			            "Object": {
+			              "Role": "data_dictionary.column_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_dictionaries_have_column_2"
+			        }
+			      ]
+			    },
+			    "data_dictionary_has_column_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Data_Dictionary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_dictionary": {
+			          "Target": {
+			            "Entity": "data_dictionary"
+			          }
+			        },
+			        "data_dictionary.column_1": {
+			          "Target": {
+			            "Entity": "data_dictionary.column_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_dictionary"
+			            },
+			            "Object": {
+			              "Role": "data_dictionary.column_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_dictionaries_have_column_1"
+			        }
+			      ]
+			    },
+			    "chapter_has_movie_chapter": {
+			      "Binding": {
+			        "ConceptualEntity": "Chapters"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "chapter": {
+			          "Target": {
+			            "Entity": "chapter"
+			          }
+			        },
+			        "chapter.movie_chapter": {
+			          "Target": {
+			            "Entity": "chapter.movie_chapter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "chapter"
+			            },
+			            "Object": {
+			              "Role": "chapter.movie_chapter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "chapters_have_movie_chapters"
+			        }
+			      ]
+			    },
+			    "chapter_has_chapter_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Chapters"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "chapter": {
+			          "Target": {
+			            "Entity": "chapter"
+			          }
+			        },
+			        "chapter.chapter_name": {
+			          "Target": {
+			            "Entity": "chapter.chapter_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "chapter"
+			            },
+			            "Object": {
+			              "Role": "chapter.chapter_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "chapters_have_chapter_names"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "chapter"
+			            },
+			            "Name": {
+			              "Role": "chapter.chapter_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "chapter_names_are_names_IDs_of_chapters"
+			        }
+			      ]
+			    },
+			    "chapter_has_chapter_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Chapters"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "chapter": {
+			          "Target": {
+			            "Entity": "chapter"
+			          }
+			        },
+			        "chapter.chapter_ID": {
+			          "Target": {
+			            "Entity": "chapter.chapter_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "chapter"
+			            },
+			            "Object": {
+			              "Role": "chapter.chapter_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "chapters_have_chapter_ID"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "chapter"
+			            },
+			            "Name": {
+			              "Role": "chapter.chapter_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "chapter_ID_are_names_IDs_of_chapters"
+			        }
+			      ]
+			    },
+			    "dialogue_in_place": {
+			      "Binding": {
+			        "ConceptualEntity": "Dialogue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dialogue": {
+			          "Target": {
+			            "Entity": "dialogue"
+			          }
+			        },
+			        "place": {
+			          "Target": {
+			            "Entity": "place"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "place"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dialogue"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "place"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dialogues_are_in_places"
+			        }
+			      ]
+			    },
+			    "place_in_place_category": {
+			      "Binding": {
+			        "ConceptualEntity": "Places"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "place": {
+			          "Target": {
+			            "Entity": "place"
+			          }
+			        },
+			        "place.place_category": {
+			          "Target": {
+			            "Entity": "place.place_category"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "place.place_category"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "place"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "place.place_category"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "places_are_in_place_categories"
+			        }
+			      ]
+			    },
+			    "movie_is_released_in_release_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movie": {
+			          "Target": {
+			            "Entity": "movie"
+			          }
+			        },
+			        "movie.release_year": {
+			          "Target": {
+			            "Entity": "movie.release_year"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "movie.release_year"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "release": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "movie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "movies_are_released_on_release_years"
+			        }
+			      ]
+			    },
+			    "hogwarts_houses_english_updated_has_house_color": {
+			      "Binding": {
+			        "ConceptualEntity": "Hogward houses"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hogwarts_houses_english_updated": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated"
+			          }
+			        },
+			        "hogwarts_houses_english_updated.house_color": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated.house_color"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hogwarts_houses_english_updated"
+			            },
+			            "Object": {
+			              "Role": "hogwarts_houses_english_updated.house_color"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hogwarts_houses_english_updated_have_house_colors"
+			        }
+			      ]
+			    },
+			    "hogwarts_houses_english_updated_has_trait": {
+			      "Binding": {
+			        "ConceptualEntity": "Hogward houses"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hogwarts_houses_english_updated": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated"
+			          }
+			        },
+			        "hogwarts_houses_english_updated.trait": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated.trait"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hogwarts_houses_english_updated"
+			            },
+			            "Object": {
+			              "Role": "hogwarts_houses_english_updated.trait"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hogwarts_houses_english_updated_have_traits"
+			        }
+			      ]
+			    },
+			    "hogwarts_houses_english_updated_has_head_of_house": {
+			      "Binding": {
+			        "ConceptualEntity": "Hogward houses"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hogwarts_houses_english_updated": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated"
+			          }
+			        },
+			        "hogwarts_houses_english_updated.head_of_house": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated.head_of_house"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hogwarts_houses_english_updated"
+			            },
+			            "Object": {
+			              "Role": "hogwarts_houses_english_updated.head_of_house"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hogwarts_houses_english_updated_have_head_of_house"
+			        }
+			      ]
+			    },
+			    "hogwarts_houses_english_updated_has_ghost": {
+			      "Binding": {
+			        "ConceptualEntity": "Hogward houses"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hogwarts_houses_english_updated": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated"
+			          }
+			        },
+			        "hogwarts_houses_english_updated.ghost": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated.ghost"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hogwarts_houses_english_updated"
+			            },
+			            "Object": {
+			              "Role": "hogwarts_houses_english_updated.ghost"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hogwarts_houses_english_updated_have_ghosts"
+			        }
+			      ]
+			    },
+			    "hogwarts_houses_english_updated_has_summary": {
+			      "Binding": {
+			        "ConceptualEntity": "Hogward houses"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hogwarts_houses_english_updated": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated"
+			          }
+			        },
+			        "hogwarts_houses_english_updated.summary": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated.summary"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hogwarts_houses_english_updated"
+			            },
+			            "Object": {
+			              "Role": "hogwarts_houses_english_updated.summary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hogwarts_houses_english_updated_have_summaries"
+			        }
+			      ]
+			    },
+			    "hogwarts_houses_english_updated_has_link": {
+			      "Binding": {
+			        "ConceptualEntity": "Hogward houses"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hogwarts_houses_english_updated": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated"
+			          }
+			        },
+			        "hogwarts_houses_english_updated.link": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated.link"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hogwarts_houses_english_updated"
+			            },
+			            "Object": {
+			              "Role": "hogwarts_houses_english_updated.link"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hogwarts_houses_english_updated_have_links"
+			        }
+			      ]
+			    },
+			    "medida_has_sentimento": {
+			      "Binding": {
+			        "ConceptualEntity": "Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.sentimento": {
+			          "Target": {
+			            "Entity": "medida.sentimento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.sentimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_sentimento"
+			        }
+			      ]
+			    },
+			    "movie_has_link": {
+			      "Binding": {
+			        "ConceptualEntity": "Movies"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movie": {
+			          "Target": {
+			            "Entity": "movie"
+			          }
+			        },
+			        "movie.link": {
+			          "Target": {
+			            "Entity": "movie.link"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movie"
+			            },
+			            "Object": {
+			              "Role": "movie.link"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movies_have_links"
+			        }
+			      ]
+			    },
+			    "chapter_has_movie": {
+			      "Binding": {
+			        "ConceptualEntity": "Chapters"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "chapter": {
+			          "Target": {
+			            "Entity": "chapter"
+			          }
+			        },
+			        "movie": {
+			          "Target": {
+			            "Entity": "movie"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "chapter"
+			            },
+			            "Object": {
+			              "Role": "movie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "chapters_have_movies"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movie"
+			            },
+			            "Object": {
+			              "Role": "chapter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movies_have_chapters"
+			        }
+			      ]
+			    },
+			    "character_has_hogwarts_houses_english_updated": {
+			      "Binding": {
+			        "ConceptualEntity": "Characters"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "character": {
+			          "Target": {
+			            "Entity": "character"
+			          }
+			        },
+			        "hogwarts_houses_english_updated": {
+			          "Target": {
+			            "Entity": "hogwarts_houses_english_updated"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "character"
+			            },
+			            "Object": {
+			              "Role": "hogwarts_houses_english_updated"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "characters_have_hogwarts_houses_english_updated"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hogwarts_houses_english_updated"
+			            },
+			            "Object": {
+			              "Role": "character"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hogwarts_houses_english_updated_have_characters"
+			        }
+			      ]
+			    },
+			    "dialogue_has_chapter": {
+			      "Binding": {
+			        "ConceptualEntity": "Dialogue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dialogue": {
+			          "Target": {
+			            "Entity": "dialogue"
+			          }
+			        },
+			        "chapter": {
+			          "Target": {
+			            "Entity": "chapter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dialogue"
+			            },
+			            "Object": {
+			              "Role": "chapter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dialogues_have_chapters"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "chapter"
+			            },
+			            "Object": {
+			              "Role": "dialogue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "chapters_have_dialogues"
+			        }
+			      ]
+			    },
+			    "dialogue_has_place": {
+			      "Binding": {
+			        "ConceptualEntity": "Dialogue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dialogue": {
+			          "Target": {
+			            "Entity": "dialogue"
+			          }
+			        },
+			        "place": {
+			          "Target": {
+			            "Entity": "place"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dialogue"
+			            },
+			            "Object": {
+			              "Role": "place"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dialogues_have_places"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "place"
+			            },
+			            "Object": {
+			              "Role": "dialogue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "places_have_dialogues"
+			        }
+			      ]
+			    },
+			    "dialogue_has_character": {
+			      "Binding": {
+			        "ConceptualEntity": "Dialogue"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dialogue": {
+			          "Target": {
+			            "Entity": "dialogue"
+			          }
+			        },
+			        "character": {
+			          "Target": {
+			            "Entity": "character"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dialogue"
+			            },
+			            "Object": {
+			              "Role": "character"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dialogues_have_characters"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "character"
+			            },
+			            "Object": {
+			              "Role": "dialogue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "characters_have_dialogues"
+			        }
+			      ]
+			    },
+			    "lista_palavra_has_spell": {
+			      "Binding": {
+			        "ConceptualEntity": "Lista palavras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lista_palavra": {
+			          "Target": {
+			            "Entity": "lista_palavra"
+			          }
+			        },
+			        "spell": {
+			          "Target": {
+			            "Entity": "spell"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lista_palavra"
+			            },
+			            "Object": {
+			              "Role": "spell"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lista_palavras_have_spells"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spell"
+			            },
+			            "Object": {
+			              "Role": "lista_palavra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spells_have_lista_palavras"
+			        }
+			      ]
+			    },
+			    "lista_palavra_has_dialogue1": {
+			      "Binding": {
+			        "ConceptualEntity": "Lista palavras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lista_palavra": {
+			          "Target": {
+			            "Entity": "lista_palavra"
+			          }
+			        },
+			        "dialogue": {
+			          "Target": {
+			            "Entity": "dialogue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lista_palavra"
+			            },
+			            "Object": {
+			              "Role": "dialogue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lista_palavras_have_dialogues1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dialogue"
+			            },
+			            "Object": {
+			              "Role": "lista_palavra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dialogues_have_lista_palavras"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

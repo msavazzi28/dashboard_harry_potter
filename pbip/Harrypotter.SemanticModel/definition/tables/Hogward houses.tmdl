@@ -1,0 +1,102 @@
+table 'Hogward houses'
+	lineageTag: 05624cd5-c385-4678-8fb0-c1c1e2786f6f
+
+	column ID
+		dataType: int64
+		formatString: 0
+		lineageTag: 33b2b652-f3cb-471d-b037-ba0207df5d65
+		summarizeBy: none
+		sourceColumn: ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Name
+		dataType: string
+		lineageTag: b8cb19d6-fd79-4c38-ab21-8874349d8692
+		summarizeBy: none
+		sourceColumn: Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Founder
+		dataType: string
+		lineageTag: e4a8b67c-b11c-4fec-a103-de13caced5a9
+		summarizeBy: none
+		sourceColumn: Founder
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'House Animal'
+		dataType: string
+		lineageTag: 1ecaf8bc-97ca-42f2-b1dc-62064974e416
+		summarizeBy: none
+		sourceColumn: House Animal
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'House Colors'
+		dataType: string
+		lineageTag: ded38892-0d25-4888-a667-c56e3b8aea6a
+		summarizeBy: none
+		sourceColumn: House Colors
+
+		annotation SummarizationSetBy = Automatic
+
+	column Traits
+		dataType: string
+		lineageTag: 6650b3f8-fe2e-48dc-8ab3-bf95bc2c38b1
+		summarizeBy: none
+		sourceColumn: Traits
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Head of House'
+		dataType: string
+		lineageTag: 70edf6c8-bd8c-4d33-af22-b35359f53bca
+		summarizeBy: none
+		sourceColumn: Head of House
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ghost
+		dataType: string
+		lineageTag: 4f0f805f-8fa3-48a6-b49a-22d83cf55fa0
+		summarizeBy: none
+		sourceColumn: Ghost
+
+		annotation SummarizationSetBy = Automatic
+
+	column Summary
+		dataType: string
+		lineageTag: d0743db4-3f80-43a4-9488-7765d2d6b4eb
+		summarizeBy: none
+		sourceColumn: Summary
+
+		annotation SummarizationSetBy = Automatic
+
+	column Link
+		dataType: string
+		lineageTag: ab484df6-caf0-43f1-be59-7fa7d0ca115e
+		dataCategory: ImageUrl
+		summarizeBy: none
+		sourceColumn: Link
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Hogward houses' = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\msava\Documents\Analises de dados\Harry Potter\Harry_Potter_Movies\hogwarts_houses_english_updated.csv"),[Delimiter=";", Columns=10, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID", Int64.Type}, {"Name", type text}, {"Founder", type text}, {"House Animal", type text}, {"House Colors", type text}, {"Traits", type text}, {"Head of House", type text}, {"Ghost", type text}, {"Summary", type text}, {"Link", type text}}),
+				    #"Valor Substituído" = Table.ReplaceValue(#"Tipo Alterado"," ","",Replacer.ReplaceText,{"Link"})
+				in
+				    #"Valor Substituído"
+
+	changedProperty = Name
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+

@@ -1,0 +1,42 @@
+table Data_Dictionary
+	lineageTag: 7bca9195-f5c4-4116-8709-c66ee7f334fb
+
+	column Table
+		dataType: string
+		lineageTag: b9c80275-5715-49f3-92a6-37b0c9fda8c9
+		summarizeBy: none
+		sourceColumn: Table
+
+		annotation SummarizationSetBy = Automatic
+
+	column Field
+		dataType: string
+		lineageTag: de5bfff1-f651-473f-8f3b-2bf4f72f5b51
+		summarizeBy: none
+		sourceColumn: Field
+
+		annotation SummarizationSetBy = Automatic
+
+	column Description
+		dataType: string
+		lineageTag: cd198b88-0ec4-4e37-9b01-f4ca19ac5e00
+		summarizeBy: none
+		sourceColumn: Description
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Data_Dictionary = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\msava\Documents\Analises de dados\Harry Potter\Harry_Potter_Movies\Data_Dictionary.csv"),[Delimiter=",", Columns=3, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}}),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(#"Tipo Alterado", [PromoteAllScalars=true]),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Table", type text}, {"Field", type text}, {"Description", type text}})
+				in
+				    #"Tipo Alterado1"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

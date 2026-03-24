@@ -1,0 +1,27 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["Chapters","Data_Dictionary","Movies","Places","Spells","Characters","Dialogue","Medidas","Lista palavras","Hogward houses"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Chapters
+ref table Data_Dictionary
+ref table Movies
+ref table Places
+ref table Spells
+ref table Characters
+ref table Dialogue
+ref table Medidas
+ref table 'Lista palavras'
+ref table 'Hogward houses'
+
+ref cultureInfo pt-BR
+

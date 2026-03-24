@@ -1,0 +1,52 @@
+table Chapters
+	lineageTag: 5084526f-1681-4739-98f2-74d9dcff5435
+
+	column 'Chapter ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: e24fe905-19bd-46c9-96b1-270237eed4a4
+		summarizeBy: none
+		sourceColumn: Chapter ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Chapter Name'
+		dataType: string
+		lineageTag: c1261170-bb38-457d-8dd2-ef63067cfb54
+		summarizeBy: none
+		sourceColumn: Chapter Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Movie ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: c128aa5c-39ce-4eb0-9092-250dfbfd2e61
+		summarizeBy: none
+		sourceColumn: Movie ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Movie Chapter'
+		dataType: int64
+		formatString: 0
+		lineageTag: 4c700ad4-194c-4160-82fc-5139fcb5e44a
+		summarizeBy: sum
+		sourceColumn: Movie Chapter
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Chapters = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\msava\Documents\Analises de dados\Harry Potter\Harry_Potter_Movies\Chapters.csv"),[Delimiter=",", Columns=4, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Chapter ID", Int64.Type}, {"Chapter Name", type text}, {"Movie ID", Int64.Type}, {"Movie Chapter", Int64.Type}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

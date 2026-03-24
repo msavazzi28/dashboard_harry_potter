@@ -1,0 +1,122 @@
+table 'Lista palavras'
+	lineageTag: 6e6fe1ff-bd9b-4265-8573-2ef5b3087667
+
+	column Word
+		dataType: string
+		lineageTag: a24d90ee-fca0-4fe9-935a-9a2a885d00bf
+		summarizeBy: none
+		sourceColumn: Word
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Dialogue ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: 8da1d945-58fd-4efd-9859-d4c823e083e5
+		summarizeBy: none
+		sourceColumn: Dialogue ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Chapter ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: cc01fc80-47a1-4e57-aaa4-cb060dece04a
+		summarizeBy: count
+		sourceColumn: Chapter ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Place ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: 3b7969e5-3056-4d8e-9ef0-acbd0ea7bdc3
+		summarizeBy: count
+		sourceColumn: Place ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Character ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: 3daf3041-e9be-4e5c-ae75-78d3443ff164
+		summarizeBy: count
+		sourceColumn: Character ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Dialogue
+		dataType: string
+		lineageTag: 200220a4-9803-4cf4-8daa-193ac7e57e01
+		summarizeBy: none
+		sourceColumn: Dialogue
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Spell id' = LOOKUPVALUE(Spells[Spell ID],Spells[Spell search],'Lista palavras'[Word])
+		formatString: 0
+		lineageTag: 996e7cb1-217e-46f8-9b30-5b5f5feabe2c
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Lista palavras' = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\msava\Documents\Analises de dados\Harry Potter\Harry_Potter_Movies\Dialogue.csv"),[Delimiter=",", Columns=5, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Dialogue ID", Int64.Type}, {"Chapter ID", Int64.Type}, {"Place ID", Int64.Type}, {"Character ID", Int64.Type}, {"Dialogue", type text}}),
+				    #"Valor Substituído15" = Table.ReplaceValue(#"Tipo Alterado","Alarte Ascendare","Alarte_Ascendare",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído16" = Table.ReplaceValue(#"Valor Substituído15","Arania Exumai","Arania_Exumai",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído17" = Table.ReplaceValue(#"Valor Substituído16","Arresto Momentum","Arresto_Momentum",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído18" = Table.ReplaceValue(#"Valor Substituído17","Avada Kedavra","Avada_Kedavra",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído19" = Table.ReplaceValue(#"Valor Substituído18","Brackium Emendo","Brackium_Emendo",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído20" = Table.ReplaceValue(#"Valor Substituído19","Cistem Aperio","Cistem_Aperio",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído21" = Table.ReplaceValue(#"Valor Substituído20","Expecto Patronum","Expecto_Patronum",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído22" = Table.ReplaceValue(#"Valor Substituído21","Homenum Revelio","Homenum_Revelio",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído23" = Table.ReplaceValue(#"Valor Substituído22","Locomotor Mortis","Locomotor_Mortis",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído24" = Table.ReplaceValue(#"Valor Substituído23","Lumos Maxima","Lumos_Maxima",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído25" = Table.ReplaceValue(#"Valor Substituído24","Lumos Solem","Lumos_Solem",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído26" = Table.ReplaceValue(#"Valor Substituído25","Oculus Reparo","Oculus_Reparo",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído27" = Table.ReplaceValue(#"Valor Substituído26","Peskipiksi Pesternomi","Peskipiksi_Pesternomi",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído28" = Table.ReplaceValue(#"Valor Substituído27","Petrificus Totalus","Petrificus_Totalus",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído29" = Table.ReplaceValue(#"Valor Substituído28","Piertotum Locomotor","Piertotum_Locomotor",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído30" = Table.ReplaceValue(#"Valor Substituído29","Priori Incantatem","Priori_Incantatem",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído31" = Table.ReplaceValue(#"Valor Substituído30","Protego Maxima","Protego_Maxima",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído32" = Table.ReplaceValue(#"Valor Substituído31","Protego totalum","Protego_totalum",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído33" = Table.ReplaceValue(#"Valor Substituído32","Repello Inimicum","Repello_Inimicum",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído34" = Table.ReplaceValue(#"Valor Substituído33","Repello Muggletum","Repello_Muggletum",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído35" = Table.ReplaceValue(#"Valor Substituído34","Salvio hexia","Salvio_hexia",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído36" = Table.ReplaceValue(#"Valor Substituído35","Vera Verto","Vera_Verto",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído37" = Table.ReplaceValue(#"Valor Substituído36","Vipera Evanesca","Vipera_Evanesca",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído38" = Table.ReplaceValue(#"Valor Substituído37","Wingardium Leviosa","Wingardium_Leviosa",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído4" = Table.ReplaceValue(#"Valor Substituído38","..."," ",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído" = Table.ReplaceValue(#"Valor Substituído4","."," ",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído8" = Table.ReplaceValue(#"Valor Substituído","--"," ",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído9" = Table.ReplaceValue(#"Valor Substituído8",""""," ",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído13" = Table.ReplaceValue(#"Valor Substituído9","-"," ",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído10" = Table.ReplaceValue(#"Valor Substituído13","&"," ",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído11" = Table.ReplaceValue(#"Valor Substituído10",":"," ",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído12" = Table.ReplaceValue(#"Valor Substituído11",";"," ",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído1" = Table.ReplaceValue(#"Valor Substituído12",","," ",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído2" = Table.ReplaceValue(#"Valor Substituído1","?"," ",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído3" = Table.ReplaceValue(#"Valor Substituído2","!"," ",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído7" = Table.ReplaceValue(#"Valor Substituído3","  "," ",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído14" = Table.ReplaceValue(#"Valor Substituído7","'"," ",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído6" = Table.ReplaceValue(#"Valor Substituído14","   "," ",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído5" = Table.ReplaceValue(#"Valor Substituído6","  "," ",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído39" = Table.ReplaceValue(#"Valor Substituído5","Expelliarumus!","Expelliarmus",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Valor Substituído40" = Table.ReplaceValue(#"Valor Substituído39","Expelliarmus!","Expelliarmus",Replacer.ReplaceText,{"Dialogue"}),
+				    #"Texto Aparado" = Table.TransformColumns(#"Valor Substituído40",{{"Dialogue", Text.Trim, type text}}),
+				    #"Personalização Adicionada" = Table.AddColumn(#"Texto Aparado", "teste", each Text.Split([Dialogue], " ")),
+				    #"teste Expandido" = Table.ExpandListColumn(#"Personalização Adicionada", "teste"),
+				    #"Linhas Filtradas" = Table.SelectRows(#"teste Expandido", each true),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Linhas Filtradas",{{"teste", "Word"}})
+				in
+				    #"Colunas Renomeadas"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+

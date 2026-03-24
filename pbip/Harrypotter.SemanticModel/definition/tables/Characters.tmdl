@@ -1,0 +1,92 @@
+table Characters
+	lineageTag: 1cb1f41b-361f-44fe-83a5-305b4c0283bb
+
+	column 'Character ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: 5e3b1559-3e9e-49b5-8c5d-3d0179baec96
+		summarizeBy: none
+		sourceColumn: Character ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Character Name'
+		dataType: string
+		lineageTag: ce4bb632-06ab-40cc-93bd-f2b1dad04f6e
+		summarizeBy: none
+		sourceColumn: Character Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Species
+		dataType: string
+		lineageTag: f6a6a839-637c-46ec-8e50-8038e250dc6a
+		summarizeBy: none
+		sourceColumn: Species
+
+		annotation SummarizationSetBy = Automatic
+
+	column Gender
+		dataType: string
+		lineageTag: 021071f6-6005-415c-b041-5b8ee8604506
+		summarizeBy: none
+		sourceColumn: Gender
+
+		annotation SummarizationSetBy = Automatic
+
+	column House
+		dataType: string
+		lineageTag: 45d651ce-e820-4c1e-acb4-fc31dfc42a56
+		summarizeBy: none
+		sourceColumn: House
+
+		annotation SummarizationSetBy = Automatic
+
+	column Patronus
+		dataType: string
+		lineageTag: 0e664028-b3e1-43a2-87aa-89b70d6d2f44
+		summarizeBy: none
+		sourceColumn: Patronus
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Wand (Wood)'
+		dataType: string
+		lineageTag: b3dc494f-f630-4def-9327-6d357c09c9d6
+		summarizeBy: none
+		sourceColumn: Wand (Wood)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Wand (Core)'
+		dataType: string
+		lineageTag: fa6e4f12-0c47-469a-9bcb-16443821bcbb
+		summarizeBy: none
+		sourceColumn: Wand (Core)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Link foto'
+		dataType: string
+		lineageTag: 44135250-0d41-4135-8ce5-f76bfa69bd64
+		dataCategory: ImageUrl
+		summarizeBy: none
+		sourceColumn: Link foto
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Characters = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\msava\Documents\Analises de dados\Harry Potter\Harry_Potter_Movies\Character Links.xlsx"), null, true),
+				    Characters_Table = Fonte{[Item="Characters",Kind="Table"]}[Data],
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Characters_Table,{{"Character ID", Int64.Type}, {"Character Name", type text}, {"Species", type text}, {"Gender", type text}, {"House", type text}, {"Patronus", type text}, {"Wand (Wood)", type text}, {"Wand (Core)", type text}, {"Coluna1", type text}}),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Tipo Alterado",{{"Coluna1", "Link foto"}})
+				in
+				    #"Colunas Renomeadas"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+

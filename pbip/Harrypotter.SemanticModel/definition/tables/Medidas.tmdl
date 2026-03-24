@@ -1,0 +1,59 @@
+table Medidas
+	lineageTag: 7e23dd09-97d5-4a06-a4b8-c6c5949efd7b
+
+	measure html_resumo = ```
+			
+			VAR nome_anime = SELECTEDVALUE(Characters[Character Name])
+			VAR nome_do_anime = SELECTEDVALUE(Characters[Character Name])
+			RETURN
+			"<!DOCTYPE html>
+			<html lang='pt-BR'>
+			<head>
+			    <meta charset='UTF-8'>
+			    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+			    <title>Visualização One Piece</title>
+			    <style>
+			        body {
+			            margin: 0;
+			            padding: 0;
+			        }
+			        iframe {
+			            border: none;
+			            width: 100%;
+			            height: 100vh;
+			        }
+			    </style>
+			</head>
+			<body>
+			    
+			    <iframe src='https://harrypotter-okld.onrender.com/"&nome_anime&"' allowfullscreen></iframe>
+			</body>
+			</html>
+			
+			
+			"
+			```
+		lineageTag: 9622f41f-d678-4d82-9822-839137bbf07f
+
+	measure Sentimento = if(AVERAGE(Dialogue[sentiment_score])=0,"Neutral",if(AVERAGE(Dialogue[sentiment_score])>0,"Positive","Negative"))
+		lineageTag: 4b568c76-7934-4e01-8644-baf1ce5ebd0d
+
+	column 'Coluna 1'
+		dataType: string
+		lineageTag: 573d5b06-f5eb-4a2e-9593-8a8836e4f1f5
+		summarizeBy: none
+		sourceColumn: Coluna 1
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Medidas = m
+		mode: import
+		source =
+				let
+				    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Coluna 1" = _t]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Coluna 1", type text}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_ResultType = Table
+

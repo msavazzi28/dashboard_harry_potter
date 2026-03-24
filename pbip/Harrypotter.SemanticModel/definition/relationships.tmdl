@@ -1,0 +1,39 @@
+relationship AutoDetected_6c65eeb6-3b8b-4a52-a720-ea4bec2170cd
+	crossFilteringBehavior: bothDirections
+	fromColumn: Chapters.'Movie ID'
+	toColumn: Movies.'Movie ID'
+
+relationship AutoDetected_0d4751a6-24c3-4703-89d9-cfb276f05287
+	crossFilteringBehavior: bothDirections
+	fromColumn: Dialogue.'Chapter ID'
+	toColumn: Chapters.'Chapter ID'
+
+relationship AutoDetected_d10e5254-87ff-4267-a7e5-84d93d644ea4
+	crossFilteringBehavior: bothDirections
+	fromColumn: Dialogue.'Place ID'
+	toColumn: Places.'Place ID'
+
+relationship 192de159-2448-f79b-05f8-0fe76f4e1732
+	isActive: false
+	crossFilteringBehavior: bothDirections
+	fromColumn: 'Lista palavras'.'Character ID'
+	toColumn: Characters.'Character ID'
+
+relationship 517f42f9-f3c9-9a32-e6cd-01d6f9671379
+	fromColumn: 'Lista palavras'.'Spell id'
+	toColumn: Spells.'Spell ID'
+
+relationship 5de99195-dddf-5f5b-cc54-7fa21d40170a
+	crossFilteringBehavior: bothDirections
+	fromColumn: 'Lista palavras'.'Dialogue ID'
+	toColumn: Dialogue.'Dialogue ID'
+
+relationship c6b6fe8b-6e2a-4fbb-47ce-59c063d56383
+	fromColumn: Dialogue.'Character ID'
+	toColumn: Characters.'Character ID'
+
+relationship 12e8f1be-5a36-2b12-dacd-6e584d26f5a3
+	crossFilteringBehavior: bothDirections
+	fromColumn: Characters.House
+	toColumn: 'Hogward houses'.Name
+

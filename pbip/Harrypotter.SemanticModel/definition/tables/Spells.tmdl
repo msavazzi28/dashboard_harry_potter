@@ -1,0 +1,69 @@
+table Spells
+	lineageTag: f33f2d86-fb45-432a-92b7-9fd2c05ccc34
+
+	column 'Spell ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: 0c3a7a23-bc77-470a-a7ab-98156b373efa
+		summarizeBy: none
+		sourceColumn: Spell ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Incantation
+		dataType: string
+		lineageTag: 685e9038-76a5-42d0-bffc-270705d9b1ba
+		summarizeBy: none
+		sourceColumn: Incantation
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Spell Name'
+		dataType: string
+		lineageTag: d66d7a58-6428-4a41-acfd-3e042f394d62
+		summarizeBy: none
+		sourceColumn: Spell Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Effect
+		dataType: string
+		lineageTag: 0c8ed5a1-b8cf-47f3-a592-4fb192095a9d
+		summarizeBy: none
+		sourceColumn: Effect
+
+		annotation SummarizationSetBy = Automatic
+
+	column Light
+		dataType: string
+		lineageTag: e085ed81-8567-47fc-86c5-55a8e6e9bb9f
+		summarizeBy: none
+		sourceColumn: Light
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Spell Search'
+		dataType: string
+		lineageTag: 4cadd13d-8b17-4bef-8188-978ef3fc6a85
+		summarizeBy: none
+		sourceColumn: Spell Search
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Spells = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\msava\Documents\Analises de dados\Harry Potter\Harry_Potter_Movies\Spells.csv"),[Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Spell ID", Int64.Type}, {"Incantation", type text}, {"Spell Name", type text}, {"Effect", type text}, {"Light", type text}}),
+				    #"Coluna Duplicada" = Table.DuplicateColumn(#"Tipo Alterado", "Incantation", "Incantation - Copiar"),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Coluna Duplicada",{{"Incantation - Copiar", "Spell Search"}}),
+				    #"Valor Substituído" = Table.ReplaceValue(#"Colunas Renomeadas"," ","_",Replacer.ReplaceText,{"Spell Search"})
+				in
+				    #"Valor Substituído"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

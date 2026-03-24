@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "f57c3758654075b184c0",
+  "position": {
+    "x": 0,
+    "y": 41.428571428571431,
+    "z": 0,
+    "height": 195,
+    "width": 320,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "simpleImageEBC4593F96F1425FB3D84C5BF02B5075",
+    "query": {
+      "queryState": {
+        "imageURL": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Movies"
+                    }
+                  },
+                  "Property": "Link"
+                }
+              },
+              "queryRef": "Movies.Link",
+              "nativeQueryRef": "Link"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "imageSettings": [
+        {
+          "properties": {
+            "scalingMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'normal'"
+                }
+              }
+            },
+            "imageAlignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "101f894475c394132ddb",
+  "position": {
+    "x": 712.94832826747722,
+    "y": 93.373860182370819,
+    "z": 5000,
+    "height": 90.455927051671736,
+    "width": 130.33434650455928,
+    "tabOrder": 5000
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Lista palavras"
+                        }
+                      },
+                      "Property": "Dialogue"
+                    }
+                  },
+                  "Function": 2
+                }
+              },
+              "queryRef": "Min(Lista palavras.Dialogue)",
+              "nativeQueryRef": "Total Dialogue",
+              "displayName": "Total Dialogue"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "Lista palavras"
+                      }
+                    },
+                    "Property": "Dialogue"
+                  }
+                },
+                "Function": 2
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "labels": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "35D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

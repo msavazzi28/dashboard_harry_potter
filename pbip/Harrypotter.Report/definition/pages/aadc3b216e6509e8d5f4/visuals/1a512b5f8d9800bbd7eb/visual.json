@@ -1,0 +1,116 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "1a512b5f8d9800bbd7eb",
+  "position": {
+    "x": 713.33333333333337,
+    "y": 250,
+    "z": 13000,
+    "height": 432.5,
+    "width": 520,
+    "tabOrder": 13000
+  },
+  "visual": {
+    "visualType": "WordCloud1447959067750",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Dialogue"
+                    }
+                  },
+                  "Property": "Dialogue"
+                }
+              },
+              "queryRef": "Dialogue.Dialogue",
+              "nativeQueryRef": "Dialogue"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "stopWords": [
+        {
+          "properties": {
+            "words": {
+              "expr": {
+                "Literal": {
+                  "Value": "'you the to I of it but for and a in was do he is that s so re ll ah are be am at by if an don  m t 3 ve ya '"
+                }
+              }
+            },
+            "isDefaultStopWords": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "rotateText": [
+        {
+          "properties": {
+            "minAngle": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "maxAngle": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "performance": [
+        {
+          "properties": {
+            "preestimate": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "quality": {
+              "expr": {
+                "Literal": {
+                  "Value": "47D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "isHidden": true
+}

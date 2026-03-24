@@ -1,0 +1,102 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.2.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY24SU08",
+      "reportVersionAtImport": {
+        "visual": "1.8.93",
+        "report": "2.0.93",
+        "page": "1.3.93"
+      },
+      "type": "SharedResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "publicCustomVisuals": [
+    "WordCloud1447959067750",
+    "WordCloud5550983e166911eebe560242ac120002",
+    "htmlContent443BE3AD55E043BF878BED274D3A6855",
+    "RadarChart1446119667547",
+    "radarChartE89D21F3E4E64221B79113B5015EA81B",
+    "simpleImageEBC4593F96F1425FB3D84C5BF02B5075"
+  ],
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY24SU08",
+          "path": "BaseThemes/CY24SU08.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "Analytics7806632290887794.jpg",
+          "path": "Analytics7806632290887794.jpg",
+          "type": "Image"
+        },
+        {
+          "name": "Character08687034335775157.jpg",
+          "path": "Character08687034335775157.jpg",
+          "type": "Image"
+        },
+        {
+          "name": "Films16151237581958777.jpg",
+          "path": "Films16151237581958777.jpg",
+          "type": "Image"
+        },
+        {
+          "name": "Home_Page4458966489867626.jpg",
+          "path": "Home_Page4458966489867626.jpg",
+          "type": "Image"
+        },
+        {
+          "name": "House013109889067965064.jpg",
+          "path": "House013109889067965064.jpg",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}

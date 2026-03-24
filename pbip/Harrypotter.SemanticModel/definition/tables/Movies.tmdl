@@ -1,0 +1,109 @@
+table Movies
+	lineageTag: 723008ca-b571-41a2-b403-7abe6fb793fd
+
+	column 'Movie ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: 3463df32-6e07-4d68-b03e-3eb5ee2cafe9
+		summarizeBy: none
+		sourceColumn: Movie ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Movie Title'
+		dataType: string
+		lineageTag: 275ac133-27e4-4195-8a42-c9281436ef8e
+		summarizeBy: none
+		sourceColumn: Movie Title
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Release Year'
+		dataType: int64
+		formatString: 0
+		lineageTag: 1919dd6e-5072-4aac-87fe-878d4a85d576
+		summarizeBy: none
+		sourceColumn: Release Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column Runtime
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a0b1b11-5e32-4495-891c-e3cff184c4b6
+		summarizeBy: none
+		sourceColumn: Runtime
+
+		annotation SummarizationSetBy = Automatic
+
+	column Budget
+		dataType: int64
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: c07088db-75eb-45ce-848e-3bb1f17789ce
+		summarizeBy: none
+		sourceColumn: Budget
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Box Office'
+		dataType: int64
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 8e7ad5c7-88d0-4ede-bd67-e7c5cde74c95
+		summarizeBy: none
+		sourceColumn: Box Office
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Movie Title abrv.'
+		dataType: string
+		lineageTag: cb126b04-2779-4958-a1f9-81637d2a28f3
+		summarizeBy: none
+		sourceColumn: Movie Title abrv.
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Profit Margin' = [Box Office]/[Budget]
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: c17bcbc0-99b6-477a-8bc7-c784f3eff8c2
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Ordem filme abrev' = [Movie ID]&" - "&[Movie Title abrv.]
+		lineageTag: 4a5ad51b-11a8-4d28-b7e4-93d5e948f569
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Link
+		dataType: string
+		lineageTag: 305457cf-fb1a-486e-b351-3d010a0d013b
+		dataCategory: ImageUrl
+		summarizeBy: none
+		sourceColumn: Link
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Movies = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\msava\Documents\Analises de dados\Harry Potter\Harry_Potter_Movies\Movies.csv"),[Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Movie ID", Int64.Type}, {"Movie Title", type text}, {"Release Year", Int64.Type}, {"Runtime", Int64.Type}, {"Budget", type text}, {"Box Office", type text}}),
+				    #"Coluna Duplicada" = Table.DuplicateColumn(#"Tipo Alterado", "Movie Title", "Movie Title - Copiar"),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Coluna Duplicada",{{"Movie Title - Copiar", "Movie Title abrv."}}),
+				    #"Valor Substituído" = Table.ReplaceValue(#"Colunas Renomeadas","Harry Potter and the ","",Replacer.ReplaceText,{"Movie Title abrv."}),
+				    #"Valor Substituído1" = Table.ReplaceValue(#"Valor Substituído","$","",Replacer.ReplaceText,{"Budget"}),
+				    #"Valor Substituído2" = Table.ReplaceValue(#"Valor Substituído1","$","",Replacer.ReplaceText,{"Box Office"}),
+				    #"Valor Substituído3" = Table.ReplaceValue(#"Valor Substituído2",",","",Replacer.ReplaceText,{"Budget"}),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Valor Substituído3",{{"Budget", Int64.Type}}),
+				    #"Valor Substituído4" = Table.ReplaceValue(#"Tipo Alterado1",",","",Replacer.ReplaceText,{"Box Office"}),
+				    #"Tipo Alterado2" = Table.TransformColumnTypes(#"Valor Substituído4",{{"Box Office", Int64.Type}})
+				in
+				    #"Tipo Alterado2"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

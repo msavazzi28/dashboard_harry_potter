@@ -1,0 +1,42 @@
+table Places
+	lineageTag: 99400fe5-26ee-4e60-81b1-45e6f245dab0
+
+	column 'Place ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: 17bd6109-2f22-412d-abcd-81e2413a62d6
+		summarizeBy: none
+		sourceColumn: Place ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Place Name'
+		dataType: string
+		lineageTag: 36c67cb8-81b2-47ae-b5cd-e0d08a958ae8
+		summarizeBy: none
+		sourceColumn: Place Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Place Category'
+		dataType: string
+		lineageTag: c1fead67-bdd7-4d60-a94a-8f0632f14cb5
+		summarizeBy: none
+		sourceColumn: Place Category
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Places = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\msava\Documents\Analises de dados\Harry Potter\Harry_Potter_Movies\Places.csv"),[Delimiter=",", Columns=3, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Place ID", Int64.Type}, {"Place Name", type text}, {"Place Category", type text}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+
